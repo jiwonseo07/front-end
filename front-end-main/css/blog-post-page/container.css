@@ -1,0 +1,22 @@
+/*styles for body */
+body {
+    margin: 0;
+    background-color: rgba(241, 147, 23, 0.438);
+}  
+
+/*style for container*/
+.container {
+    display: grid;
+    height: 100vh;
+    grid-gap: 10px;
+    grid-template-rows: 30px auto auto 50px;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: 
+    "nav nav"
+    "header aside"
+    "main aside"
+    "footer footer";
+    /*border: 1px solid red;*/
+}
+
+

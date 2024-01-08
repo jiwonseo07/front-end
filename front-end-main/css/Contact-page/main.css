@@ -1,0 +1,20 @@
+/*styles for main*/
+.nested-main-grid {
+    display: grid;
+    height: 500px;
+    grid-template-rows: 1fr 5fr;
+    grid-template-columns: 1fr;
+    /*border: 1px solid red;*/
+}
+
+#nested-main-top {
+    border: 1px solid rgba(241, 241, 245, 0.308);
+    margin: 10px;
+
+}
+
+#nested-main-bottom {
+    border: 1px solid rgba(241, 241, 245, 0.308);
+    margin: 10px;
+
+}

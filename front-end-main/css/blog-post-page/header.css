@@ -1,0 +1,7 @@
+/*styles for header*/
+header {
+    grid-area: header;
+    /*border: 1px solid red;*/
+
+}
+

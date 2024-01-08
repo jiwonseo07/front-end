@@ -1,0 +1,18 @@
+/*styles for aside*/
+aside {
+    grid-area: aside;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr;
+    background-color: rgba(240, 248, 255, 0.322);
+}
+
+#nested-aside1 {
+    text-align: center;
+    border: 1px solid rgba(68, 67, 67, 0.363);
+}
+#nested-aside2 {
+    text-align: center;
+    border: 1px solid rgba(68, 67, 67, 0.363);
+}

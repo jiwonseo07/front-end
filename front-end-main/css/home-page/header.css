@@ -1,0 +1,25 @@
+/*styles for header*/
+header {
+    grid-area: header;
+    background-image: url("https://cdn.pixabay.com/photo/2018/04/02/18/12/pub-3284641_640.jpg");
+    border: 1px solid rgba(255, 255, 255, 0.13);
+
+ 
+}
+
+/*styles for nested header*/
+#blog-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    background-color:rgba(0, 0, 0, 0.473);
+    height: 300px;
+    margin: 0;
+    
+    color: rgba(255, 255, 255, 0.966);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    
+}

@@ -1,0 +1,55 @@
+/*styles for the main block*/
+main {
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+ 
+    /*border: 1px solid red;*/
+    /*background-color: rgba(247, 168, 79, 0.623);*/    
+    border-radius: 3px;
+}
+
+/*styles for the title-main element*/
+.title-main {
+    text-align: center;
+    /*border: 1px solid blue;*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(62, 78, 92);
+    font-size:larger;
+}
+
+/*styles for the nested-main-box*/
+.nested-main-box {
+    display: grid;
+    /*border: 1px solid blue;*/
+    width: 80vw;
+    margin: auto;
+    margin-top: 10%;
+
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 250px 250px 250px;
+    grid-gap: 10%;
+    justify-content: center;
+ 
+
+}
+
+/*styles for the boxes element*/
+.boxes {
+    display: grid;
+    border: 1px solid white;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 90%;
+    justify-content: center;
+    
+    
+
+}
+
+/*styles for top*/
+.top {
+    /*border: 1px solid red;*/
+    text-align: center;
+    background-color: rgb(201, 176, 64);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

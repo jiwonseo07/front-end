@@ -1,0 +1,18 @@
+/*styles for body */
+body {
+    margin: 0;
+    background-color: rgba(241, 147, 23, 0.438);
+}  
+
+/*styles for container*/
+.container {
+    display: grid;
+    /*border: 1px solid green;*/
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "nav"
+    "header"
+    "main"
+    "footer";
+    grid-gap: 10px;
+}

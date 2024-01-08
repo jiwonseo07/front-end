@@ -1,0 +1,26 @@
+/*import for container*/
+@import url("container.css");
+/*import for components*/
+@import url("../common-pages/nav.css");
+@import url("header.css");
+@import url("header-img.css");
+@import url("main.css");
+@import url("aside.css");
+@import url("../common-pages/footer.css");
+/*media*/
+@import url("responsive.css");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

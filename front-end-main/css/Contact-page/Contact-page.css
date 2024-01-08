@@ -1,0 +1,14 @@
+/*style for container*/
+@import url("../home-page/container.css");
+
+/*import component styles*/
+@import url("../common-pages/nav.css");
+@import url("../home-page/header.css");
+@import url("../common-pages/main.css");
+@import url("../common-pages/footer.css");
+
+
+/*media*/
+@import url("../common-pages/responsive.css");
+
+
